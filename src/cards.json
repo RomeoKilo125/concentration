@@ -1,9 +1,4 @@
 [{
-  "id": 1,
-  "name": "Ace of Clubs",
-  "clicked": false,
-  "image": "./assets/images/CA.png"
-},{
   "id": 2,
   "name": "King of Clubs",
   "clicked": false,
@@ -18,11 +13,6 @@
   "name": "Jack of Clubs",
   "clicked": false,
   "image": "./assets/images/CJ.png"
-},{
-  "id": 5,
-  "name": "Ace of Diamonds",
-  "clicked": false,
-  "image": "./assets/images/DA.png"
 },{
   "id": 6,
   "name": "King of Diamonds",
@@ -39,11 +29,6 @@
   "clicked": false,
   "image": "./assets/images/DJ.png"
 },{
-  "id": 9,
-  "name": "Ace of Hearts",
-  "clicked": false,
-  "image": "./assets/images/HA.png"
-},{
   "id": 10,
   "name": "King of Hearts",
   "clicked": false,
@@ -58,11 +43,6 @@
   "name": "Jack of Hearts",
   "clicked": false,
   "image": "./assets/images/HJ.png"
-},{
-  "id": 13,
-  "name": "Ace of Spades",
-  "clicked": false,
-  "image": "./assets/images/SA.png"
 },{
   "id": 14,
   "name": "King of Spades",
