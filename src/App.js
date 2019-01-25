@@ -3,17 +3,16 @@ import cards from './cards.json'
 import Card from './components/Card'
 import './App.css'
 
+let shuffleArray = arr => arr
+  .map(a => [Math.random(), a])
+  .sort((a, b) => a[0] - b[0])
+  .map(a => a[1])
+
+
 class App extends Component {
   state = {
-    cards,
+    cards: shuffleArray(cards),
     score: 0
-  }
-
-  shuffleArray = arr => {
-    arr
-    .map(a => [Math.random(), a])
-    .sort((a,b) => a[0] - b[0])
-    .map(a => a[1])
   }
 
   resetGame = () => {
@@ -32,7 +31,7 @@ class App extends Component {
       }
       return c
     })
-    this.setState({cards: newCards})
+    this.setState({cards: shuffleArray(newCards)})
   }
 
   render() {
