@@ -1,0 +1,81 @@
+[{
+  "id": 1,
+  "name": "Ace of Clubs",
+  "clicked": false,
+  "image": "./assets/images/CA.png"
+},{
+  "id": 2,
+  "name": "King of Clubs",
+  "clicked": false,
+  "image": "./assets/images/CK.png"
+},{
+  "id": 3,
+  "name": "Queen of Clubs",
+  "clicked": false,
+  "image": "./assets/images/CQ.png"
+},{
+  "id": 4,
+  "name": "Jack of Clubs",
+  "clicked": false,
+  "image": "./assets/images/CJ.png"
+},{
+  "id": 5,
+  "name": "Ace of Diamonds",
+  "clicked": false,
+  "image": "./assets/images/DA.png"
+},{
+  "id": 6,
+  "name": "King of Diamonds",
+  "clicked": false,
+  "image": "./assets/images/DK.png"
+},{
+  "id": 7,
+  "name": "Queen of Diamonds",
+  "clicked": false,
+  "image": "./assets/images/DQ.png"
+},{
+  "id": 8,
+  "name": "Jack of Diamonds",
+  "clicked": false,
+  "image": "./assets/images/DJ.png"
+},{
+  "id": 9,
+  "name": "Ace of Hearts",
+  "clicked": false,
+  "image": "./assets/images/HA.png"
+},{
+  "id": 10,
+  "name": "King of Hearts",
+  "clicked": false,
+  "image": "./assets/images/HK.png"
+},{
+  "id": 11,
+  "name": "Queen of Hearts",
+  "clicked": false,
+  "image": "./assets/images/HQ.png"
+},{
+  "id": 12,
+  "name": "Jack of Hearts",
+  "clicked": false,
+  "image": "./assets/images/HJ.png"
+},{
+  "id": 13,
+  "name": "Ace of Spades",
+  "clicked": false,
+  "image": "./assets/images/SA.png"
+},{
+  "id": 14,
+  "name": "King of Spades",
+  "clicked": false,
+  "image": "./assets/images/SK.png"
+},{
+  "id": 15,
+  "name": "Queen of Spades",
+  "clicked": false,
+  "image": "./assets/images/SQ.png"
+},{
+  "id": 16,
+  "name": "Jack of Spades",
+  "clicked": false,
+  "image": "./assets/images/SJ.png"
+}]
