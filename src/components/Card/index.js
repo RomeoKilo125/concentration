@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './style.css'
 
-class Card extends React.Component {
+class Card extends Component {
 state = {
   clicked: this.props.clicked
 }

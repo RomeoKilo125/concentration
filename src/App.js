@@ -1,13 +1,10 @@
 import React, {Component} from "react"
-import cards from './cards.json'
 import Card from './components/Card'
+import ScoreBox from './components/ScoreBox'
+import cards from './cards.json'
 import './App.css'
 
-let shuffleArray = arr => arr
-  .map(a => [Math.random(), a])
-  .sort((a, b) => a[0] - b[0])
-  .map(a => a[1])
-
+let shuffleArray = arr => arr.map(a => [Math.random(), a]).sort((a, b) => a[0] - b[0]).map(a => a[1])
 
 class App extends Component {
   state = {
@@ -25,6 +22,9 @@ class App extends Component {
       if (c.id === id) {
         if (c.clicked === false) {
           c.clicked = true
+          this.setState({
+            score: this.state.score + 1
+          })
         } else {
           this.resetGame()
         }
@@ -35,8 +35,9 @@ class App extends Component {
   }
 
   render() {
-    return (this.state.cards.map(e => <Card key={e.id} id={e.id} clicked={e.clicked} name={e.name} image={e.image} click={this.handleClick}/>))
-  }
-}
+    return (<div><ScoreBox score={this.state.score}/>
+      {this.state.cards.map(e => <Card key={e.id} id={e.id} clicked={e.clicked} name={e.name} image={e.image} click={this.handleClick}/>)}</div>)
+      }
+      }
 
-export default App
+      export default App
