@@ -14,6 +14,14 @@ class App extends Component {
 
   resetGame = () => {
     console.log(`reset game`)
+    this.setState({
+      score: 0,
+      cards: shuffleArray(this.state.cards.map(c => {
+        c.clicked = false
+        return c
+      }))
+    })
+
   }
 
   handleClick = id => {
