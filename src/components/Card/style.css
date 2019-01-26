@@ -9,7 +9,7 @@ img {
   width: 100%;
   transform: scale(1);
   transition: .25s;
-  border-radius: 7.npm 5%;
+  border-radius: 7.5%;
 }
 
 @media screen and (max-width: 400px) {
