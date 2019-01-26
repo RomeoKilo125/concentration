@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import CardGrid from './components/CardGrid'
 import Card from './components/Card'
 import ScoreBox from './components/ScoreBox'
 import cards from './cards.json'
@@ -47,8 +48,9 @@ class App extends Component {
   }
 
   render() {
-    return (<div><ScoreBox score={this.state.score}/>
-      {this.state.cards.map(e => <Card key={e.id} id={e.id} clicked={e.clicked} name={e.name} image={e.image} click={this.handleClick}/>)}</div>)
+    return (<div><ScoreBox score={this.state.score} hiScore={this.state.hiScore}/>
+      <CardGrid cards={this.state.cards} click={this.handleClick}/>
+    </div>)
       }
       }
 

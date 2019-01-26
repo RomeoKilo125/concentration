@@ -7,7 +7,9 @@ state = {
 }
   render() {
     return (
+      <div className='card'>
       <img src={this.props.image} alt={this.props.name} onClick={() => this.props.click(this.props.id)}/>
+      </div>
     )
   }
 }
