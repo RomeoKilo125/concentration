@@ -2,12 +2,19 @@ img:hover {
   transform: scale(1.05);
   transition: .25s all;
   box-shadow: 10px 10px 10px #555;
+  z-index: 1;
 }
-
 
 img {
   width: 100%;
   transform: scale(1);
   transition: .25s;
-  border-radius: 25px;
+  border-radius: 7.npm 5%;
+}
+
+@media screen and (max-width: 400px) {
+  img:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 2px #555;
+  }
 }
