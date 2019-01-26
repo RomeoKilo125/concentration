@@ -5,7 +5,10 @@ class ScoreBox extends Component {
 
   render() {
     return (
-      <div>Score: {this.props.score}</div>
+      <div id='scoreBox'>
+        <div id='score'>Score: {this.props.score}</div>
+        <div id='hiScore'>High Score: {this.props.hiScore}</div>
+      </div>
     )
   }
 }

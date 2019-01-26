@@ -9,11 +9,15 @@ let shuffleArray = arr => arr.map(a => [Math.random(), a]).sort((a, b) => a[0] -
 class App extends Component {
   state = {
     cards: shuffleArray(cards),
-    score: 0
+    score: 0,
+    hiScore: 0
   }
 
   resetGame = () => {
     console.log(`reset game`)
+    if (this.state.score > this.state.hiScore) {
+      this.setState({hiScore: this.state.score})
+    }
     this.setState({
       score: 0,
       cards: shuffleArray(this.state.cards.map(c => {

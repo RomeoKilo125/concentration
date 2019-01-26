@@ -1,0 +1,9 @@
+#scoreBox {
+  color: white;
+  background-color: #77f;
+  font-family: sans-serif;
+  font-size: 2em;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
