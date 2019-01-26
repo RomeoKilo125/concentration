@@ -1,6 +1,6 @@
 import React, {Component} from "react"
 import CardGrid from './components/CardGrid'
-import Card from './components/Card'
+// import Card from './components/Card'
 import ScoreBox from './components/ScoreBox'
 import cards from './cards.json'
 import './App.css'
