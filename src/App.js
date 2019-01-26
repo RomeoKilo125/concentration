@@ -48,10 +48,10 @@ class App extends Component {
   }
 
   render() {
-    return (<div><ScoreBox score={this.state.score} hiScore={this.state.hiScore}/>
+    return (<div id='gameArea'><ScoreBox score={this.state.score} hiScore={this.state.hiScore}/>
       <CardGrid cards={this.state.cards} click={this.handleClick}/>
     </div>)
-      }
-      }
+  }
+}
 
-      export default App
+export default App
